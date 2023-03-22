@@ -4,9 +4,13 @@ This repository contains codes written in the C programming language for calcula
 To run the code using CUDA, it is necessary to compile it using nvcc, and the GPU toolkit should be installed beforehand.
 
 To run the serial codes in C, use the following command:
+
 gcc name_of_code.c -lm -O3
+
 To execute:
+
 echo input_file | ./a.out
 
 To run the CPU/GPU code, use the following command:
+
 bash cudacompile.sh input_file
